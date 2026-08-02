@@ -1,0 +1,14 @@
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\bin\Debug\net10.0\Mini Battle Game.exe
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\bin\Debug\net10.0\Mini Battle Game.deps.json
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\bin\Debug\net10.0\Mini Battle Game.runtimeconfig.json
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\bin\Debug\net10.0\Mini Battle Game.dll
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\bin\Debug\net10.0\Mini Battle Game.pdb
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\Mini Battle Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\Mini Battle Game.AssemblyInfoInputs.cache
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\Mini Battle Game.AssemblyInfo.cs
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\Mini Battle Game.csproj.CoreCompileInputs.cache
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\Mini Battle Game.dll
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\refint\Mini Battle Game.dll
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\Mini Battle Game.pdb
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\Mini Battle Game.genruntimeconfig.cache
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\Mini Battle Game\obj\Debug\net10.0\ref\Mini Battle Game.dll

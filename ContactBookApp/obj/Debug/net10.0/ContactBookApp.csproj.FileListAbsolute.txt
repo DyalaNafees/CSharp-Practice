@@ -1,0 +1,14 @@
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\bin\Debug\net10.0\ContactBookApp.exe
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\bin\Debug\net10.0\ContactBookApp.deps.json
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\bin\Debug\net10.0\ContactBookApp.runtimeconfig.json
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\bin\Debug\net10.0\ContactBookApp.dll
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\bin\Debug\net10.0\ContactBookApp.pdb
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\ContactBookApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\ContactBookApp.AssemblyInfoInputs.cache
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\ContactBookApp.AssemblyInfo.cs
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\ContactBookApp.csproj.CoreCompileInputs.cache
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\ContactBookApp.dll
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\refint\ContactBookApp.dll
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\ContactBookApp.pdb
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\ContactBookApp.genruntimeconfig.cache
+C:\Users\MSI2\Desktop\Programming\CSharp\Practice\ContactBookApp\obj\Debug\net10.0\ref\ContactBookApp.dll
