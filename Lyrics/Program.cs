@@ -5,6 +5,8 @@ class Program
 {
     public static void Main(string[] args)
     {
+        Console.ForegroundColor = ConsoleColor.Magenta;
+
         string[] lyrics ={
             "But I feel so seen in the night",
             "So, for now, it's only me",
