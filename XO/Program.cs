@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Threading;
 using System.Collections.Generic;
 class Program
 {
-    static void board()
+    static void Board()
     {
         Console.WriteLine("┏━━━━━┳━━━━━┳━━━━━┓");
         for (int r = 0; r < 3; r++)
@@ -31,9 +32,24 @@ class Program
         }
 
     }
+    static void Player2()
+    {
+        Random random = new Random();
+        int rowLoc = random.Next(0, 3);
+        int colLoc = random.Next(0, 3);
+
+
+        if (cell[rowLoc, colLoc] == ' ')
+        {
+            cell[rowLoc, colLoc] = 'O';
+        }
+        else
+            Player2();
+
+    }
+
     static int cursorRow = 0;
     static int cursorCol = 0;
-    static char player = 'X';
     static char[,] cell = new char[3, 3] {
             { ' ',' ',' '},
             { ' ',' ',' '},
@@ -46,7 +62,7 @@ class Program
         while (true)
         {
             Console.Clear();
-            board();
+            Board();
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
             switch (keyInfo.Key)
             {
@@ -68,8 +84,11 @@ class Program
                     break;
             }
             ConsoleKeyInfo userInput = Console.ReadKey(true);
-            if (userInput.Key.Equals(ConsoleKey.Enter)){
+            if (userInput.Key.Equals(ConsoleKey.Enter))
+            {
                 cell[cursorRow, cursorCol] = 'X';
+                Player2();
+
             }
         }
     }
