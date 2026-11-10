@@ -8,7 +8,7 @@ class Program
     static Random random = new Random();
     static int cursorRow = 0;
     static int cursorCol = 0;
-
+    static char result = ' ';
     static char[,] cell = new char[3, 3] {
             { ' ',' ',' '},
             { ' ',' ',' '},
@@ -74,12 +74,12 @@ class Program
         if (cell[0, 0] != ' ' && cell[0, 0] == cell[1, 1] && cell[1, 1] == cell[2, 2])
         {
             winner = true;
-            Console.WriteLine(cell[0, 0] + " Wins!");
+            result = cell[0, 0];
         }
         else if (cell[0, 2] != ' ' && cell[0, 2] == cell[1, 1] && cell[1, 1] == cell[2, 0])
         {
             winner = true;
-            Console.WriteLine(cell[0, 2] + " Wins!");
+            result = cell[0, 2];
         }
         else
         {
@@ -88,19 +88,20 @@ class Program
                 if (cell[0, i] != ' ' && cell[0, i] == cell[1, i] && cell[1, i] == cell[2, i])
                 {
                     winner = true;
-                    Console.WriteLine(cell[0, i] + " Wins!");
+                    result = cell[0, i];
                     break;
                 }
                 else if (cell[i, 0] != ' ' && cell[i, 0] == cell[i, 1] && cell[i, 1] == cell[i, 2])
                 {
                     winner = true;
-                    Console.WriteLine(cell[i, 0] + " Wins!");
+                    result = cell[i, 0];
                     break;
                 }
             }
         }
         return winner;
     }
+
     static bool won = CheckWin();
 
     public static void Main(string[] args)
@@ -137,6 +138,8 @@ class Program
                         if (!won)
                         {
                             Player2();
+                            won = CheckWin();
+
                         }
                     }
                     break;
@@ -144,5 +147,18 @@ class Program
         }
         Console.Clear();
         Board();
+
+        if (result == 'X')
+        {
+            Console.WriteLine("You Win!");
+        }
+        else if (result == 'O')
+        {
+            Console.WriteLine("Game Over!");
+        }
+        else
+        {
+            Console.WriteLine("It's a draw!");
+        }
     }
 }
